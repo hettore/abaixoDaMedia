@@ -32,7 +32,7 @@ public class Program {
 		System.out.printf(" %.3f ", media);
 
 		System.out.println();
-		System.out.println("Elementos abaixo da média:  ");
+		System.out.println("Elementos abaixo da média:   ");
 		for (int j = 0; j < vetor.length; j++) {
 			if (vetor[j] < media)
 				System.out.printf("%.1f%n ", vetor[j]);
