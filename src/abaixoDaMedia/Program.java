@@ -23,7 +23,7 @@ public class Program {
 		System.out.println();
 		double soma = 0.0;
 		double media = 0.0;
-		System.out.print("Média do vetor = ");
+		System.out.print("Média do vetor: ");
 		for (int i = 0; i < vetor.length; i++) {
 			soma = soma + vetor[i];
 		}
